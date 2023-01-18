@@ -54,7 +54,7 @@ difference()
    {
 	rotate([angle,0,0])
 	{
-         cube([width,length,height]);
+         cube([width,length+1,height]);
 	}
    }
 	
